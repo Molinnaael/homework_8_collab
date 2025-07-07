@@ -5,5 +5,5 @@ def remove_all_after(numbers, n):
         return numbers # If n is not in the list, just return the original list
     for i in range(len(numbers)):
         if numbers[i] == n:
-        # If we find n, return the list from the beginning up to and includding n
+        # If we find n, return the list from the beginning up to and including n
             return numbers[:i + 1]
