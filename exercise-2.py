@@ -1,5 +1,5 @@
 def index_power(numbers, n):
-    if n <= len(numbers):
+    if n < len(numbers):
         return numbers[n] ** n
     else:
         return -1
